@@ -129,6 +129,41 @@
           }
         }
       }
+    },
+    "SegmentDisplay": {
+      "root": "projects/segment-display",
+      "sourceRoot": "projects/segment-display/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/segment-display/tsconfig.lib.json",
+            "project": "projects/segment-display/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/segment-display/src/test.ts",
+            "tsConfig": "projects/segment-display/tsconfig.spec.json",
+            "karmaConfig": "projects/segment-display/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/segment-display/tsconfig.lib.json",
+              "projects/segment-display/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "segment-display"
