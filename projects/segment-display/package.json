@@ -4,5 +4,8 @@
   "peerDependencies": {
     "@angular/common": "^7.0.0",
     "@angular/core": "^7.0.0"
+  },
+  "dependencies": {
+    "3quarks-segment-display": "git+https://git.kernelport.com/r/npm/3quarks-segment-display.git#v0.0.1"
   }
 }

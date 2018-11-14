@@ -1,7 +1,13 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/segment-display",
+  "whitelistedNonPeerDependencies": [
+    "3quarks-segment-display"
+  ],
   "lib": {
-    "entryFile": "src/public_api.ts"
+    "entryFile": "src/public_api.ts",
+    "externals": {
+      "lodash": "3quarks-segment-display"
+    }
   }
 }
