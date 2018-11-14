@@ -1,4 +1,6 @@
 # SegmentDisplay
+This ist the Angular CLI Version of http://www.3quarks.com/en/SegmentDisplay/index.html   
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 ```sh
@@ -9,10 +11,16 @@ ng new segment-display
 
 ## Build/Update the lib
 ```sh
-npm install
+npm install   
+# maybe edit version in projects/segment-display/package.json
 ng build SegmentDisplay   
-cd dist/segment-display
-npx publish-to-git
+```
+
+## publish the lib
+```sh
+npm install --save-dev publish-to-git   
+cd dist/segment-display   
+npx publish-to-git   
 ```
 
 ## Development server
