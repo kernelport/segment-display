@@ -6,6 +6,6 @@
     "@angular/core": "^7.0.0"
   },
   "dependencies": {
-    "3quarks-segment-display": "git+https://github.com/kernelport/3quarks-segment-display.git#v0.0.1"
+    "3quarks-segment-display": "git+https://github.com/kernelport/3quarks-segment-display.git#v0.0.2"
   }
 }
