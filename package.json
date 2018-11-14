@@ -1,0 +1,22 @@
+{
+  "name": "segment-display",
+  "version": "0.0.2",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0"
+  },
+  "dependencies": {
+    "3quarks-segment-display": "git+https://git.kernelport.com/r/npm/3quarks-segment-display.git#v0.0.1",
+    "tslib": "^1.9.0"
+  },
+  "main": "bundles/segment-display.umd.js",
+  "module": "fesm5/segment-display.js",
+  "es2015": "fesm2015/segment-display.js",
+  "esm5": "esm5/segment-display.js",
+  "esm2015": "esm2015/segment-display.js",
+  "fesm5": "fesm5/segment-display.js",
+  "fesm2015": "fesm2015/segment-display.js",
+  "typings": "segment-display.d.ts",
+  "metadata": "segment-display.metadata.json",
+  "sideEffects": false
+}
